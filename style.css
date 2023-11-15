@@ -1,0 +1,37 @@
+body{
+    padding: 0 px;
+    margin: 0 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 524 px;
+    height: 50 px;
+    
+}
+
+main{
+    width: 60 vh;
+    height:80 wh;
+    background-color: rgb (44, 44, 36);
+}
+
+nav a{
+    color: white;
+    font-weight: 350;
+    font-size: 20 px;
+    text-decoration: none;
+    padding: 15 px;
+    display: block;
+    text-align: center;
+    padding: 20 70 px;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    
+}
