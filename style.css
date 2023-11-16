@@ -44,3 +44,21 @@
     padding: 10px 40px;
     margin-block: 15px;
 }
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+h3 {
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
