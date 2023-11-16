@@ -67,3 +67,11 @@ h4 {
     max-width: 850px;
     margin-inline: auto;
 }
+
+.section {
+    padding: 40px 60px;
+}
+
+.p-2 {
+    padding-block: 20px;
+}
