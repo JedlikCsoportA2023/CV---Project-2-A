@@ -75,3 +75,29 @@ h4 {
 .p-2 {
     padding-block: 20px;
 }
+
+blockquote::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '”';
+    rotate: 180deg;
+    height: 90px;
+    font-size: 140px;
+}
+
+.quote {
+    display: flex;
+    min-height: 170px;
+    background-color: #222;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+blockquote {
+    max-width: 27ch;
+}
