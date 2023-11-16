@@ -20,3 +20,9 @@
 .font--lg {
     font-size: 25px;
 }
+
+.bekezdesek {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+}
