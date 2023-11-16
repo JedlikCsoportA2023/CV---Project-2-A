@@ -26,3 +26,21 @@
     font-size: 21px;
     font-weight: 300;
 }
+
+.bekezdesek p {
+    line-height: 1.4;
+}
+
+.bekezdesek span {
+    font-weight: 500;
+}
+
+.bekezdesek li {
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+.bekezdesek ul {
+    padding: 10px 40px;
+    margin-block: 15px;
+}
