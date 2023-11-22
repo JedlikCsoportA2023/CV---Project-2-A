@@ -1,59 +1,66 @@
-
-body{
+body {
     padding: 0 px;
     margin: 0 px;
 }
-.marginnav{
+
+.marginnav {
     margin-left: 20px;
     margin-right: 20px;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1000px;
-    height: 100px;
+    min-width: 1000px;
+    padding-block: 30px;
     text-align: center;
     font-size: 15px;
 }
 
-main{
+main {
     background-color: black;
     align-items: center;
     text-align: center;
     width: 1000px;
 }
 
-nav a{
+nav a {
     color: white;
     font-weight: 350;
-    font-size: 20 px;
+    font-size: 20px;
     text-decoration: none;
     display: block;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     overflow: hidden;
-    width: 90px;
-    
 }
 
 .img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     opacity: 0.8;
 }
-.top{
+
+.top {
     display: flex;
 }
-.felso_szoveg{
+
+.hero__container {
+    position: relative;
+
+}
+
+.felso_szoveg {
     position: absolute;
-    top: 550px;
-    left: 200px;
+    bottom: 0;
+    right: -20px;
     font-family: 'Abril Fatface', serif;
     color: black;
     font-size: 50px;
     text-shadow: 2px 2px 5px red;
 }
+
 .font--sm {
     font-size: 16px;
 }
