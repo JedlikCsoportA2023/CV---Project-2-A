@@ -1,3 +1,42 @@
+
+body{
+    padding: 0 px;
+    margin: 0 px;
+}
+.marginnav{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+main{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+}
+
+nav a{
+    color: white;
+    font-weight: 350;
+    font-size: 20 px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow: hidden;
+    width: 90px;
+    
+}
+
 .img {
     max-width: 100%; 
     height: auto;
@@ -67,7 +106,7 @@ h4 {
 }
 
 .main-div {
-    max-width: 1000px;
+    width: 1000px;
     margin-inline: auto;
 }
 
@@ -105,46 +144,4 @@ blockquote::before {
 
 blockquote {
     max-width: 27ch;
-}
-
-
-
-
-
-body{
-    padding: 0 px;
-    margin: 0 px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: relative;
-    width: 524 px;
-    height: 50 px;
-    
-}
-
-main{
-    width: 60 vh;
-    height:80 wh;
-    background-color: rgb (44, 44, 36);
-}
-
-nav a{
-    color: white;
-    font-weight: 350;
-    font-size: 20 px;
-    text-decoration: none;
-    padding: 15 px;
-    display: block;
-    text-align: center;
-    padding: 20 70 px;
-    font-family: 'Josefin Sans', sans-serif;
-    overflow: hidden;
-    
 }
