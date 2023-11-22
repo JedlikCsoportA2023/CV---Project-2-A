@@ -108,6 +108,7 @@ h4 {
 .main-div {
     width: 1000px;
     margin-inline: auto;
+    background-color: rgb(192, 192, 192);
 }
 
 .section {
