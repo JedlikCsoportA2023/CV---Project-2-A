@@ -140,7 +140,7 @@ blockquote::before {
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    margin-block: 35px;
 }
 
 blockquote {
