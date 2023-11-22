@@ -1,3 +1,116 @@
+.img {
+    max-width: 100%; 
+    height: auto;
+}
+.top{
+    display: flex;
+}
+
+.font--sm {
+    font-size: 16px;
+}
+
+.font--md {
+    font-size: 18px;
+}
+
+.font--lg {
+    font-size: 25px;
+}
+
+.fejlec_idezetek {
+    font-family: 'Abril Fatface', serif;
+    color: #222 grey;
+    position: relative;
+}
+
+.bekezdesek {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.bekezdesek p {
+    line-height: 1.4;
+}
+
+.bekezdesek span {
+    font-weight: 500;
+}
+
+.bekezdesek li {
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+.bekezdesek ul {
+    padding: 10px 40px;
+    margin-block: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+h3 {
+    line-height: 1.0;
+    font-weight: 400;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.main-div {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.section {
+    padding: 20px 20px;
+}
+
+.p-2 {
+    padding-block: 10px;
+}
+
+blockquote::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '”';
+    rotate: 180deg;
+    height: 90px;
+    font-size: 140px;
+}
+
+.quote {
+    display: flex;
+    width: 400px;
+    min-height: 170px;
+    height: 500px;
+    background-color: #222;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+blockquote {
+    max-width: 27ch;
+}
+
+
+
+
+
 body{
     padding: 0 px;
     margin: 0 px;
