@@ -40,11 +40,20 @@ nav a{
 .img {
     max-width: 100%; 
     height: auto;
+    opacity: 0.8;
 }
 .top{
     display: flex;
 }
-
+.felso_szoveg{
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    font-family: 'Abril Fatface', serif;
+    color: black;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px red;
+}
 .font--sm {
     font-size: 16px;
 }
